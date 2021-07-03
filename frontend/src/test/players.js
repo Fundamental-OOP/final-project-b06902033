@@ -1,0 +1,117 @@
+const testingPlayers = [
+  {
+    name: "Momo",
+    handcardsNumber: 8,
+    handcards: [
+      {
+        color: "red",
+        name: "真偽莫辨",
+        type: "密電",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "blue",
+        name: "真偽莫辨",
+        type: "直達",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "black",
+        name: "真偽莫辨",
+        type: "文本",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "red",
+        name: "破譯",
+        type: "密電",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "red",
+        name: "試探",
+        type: "直達",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "black",
+        name: "調虎離山",
+        type: "文本",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "blue",
+        name: "退回",
+        type: "密電",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+      {
+        color: "blue",
+        name: "鎖定",
+        type: "密電",
+        description: "真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨真偽莫辨",
+      },
+    ],
+    redIntelli: 2,
+    blueIntelli: 3,
+    blackIntelli: 0,
+  },
+  {
+    name: "EG",
+    handcardsNumber: 1,
+    redIntelli: 3,
+    blueIntelli: 2,
+    blackIntelli: 2,
+  },
+  {
+    name: "Ze",
+    handcardsNumber: 5,
+    redIntelli: 1,
+    blueIntelli: 0,
+    blackIntelli: 1,
+  },
+  {
+    name: "Sam",
+    handcardsNumber: 9,
+    redIntelli: 1,
+    blueIntelli: 4,
+    blackIntelli: 3,
+  },
+  {
+    name: "Wenan",
+    handcardsNumber: 1,
+    redIntelli: 3,
+    blueIntelli: 2,
+    blackIntelli: 2,
+  },
+  {
+    name: "Baimao",
+    handcardsNumber: 5,
+    redIntelli: 1,
+    blueIntelli: 0,
+    blackIntelli: 1,
+  },
+  {
+    name: "Fardo",
+    handcardsNumber: 9,
+    redIntelli: 1,
+    blueIntelli: 4,
+    blackIntelli: 3,
+  },
+  {
+    name: "Tsheshuan",
+    handcardsNumber: 5,
+    redIntelli: 1,
+    blueIntelli: 0,
+    blackIntelli: 1,
+  },
+  {
+    name: "Bzhe",
+    handcardsNumber: 9,
+    redIntelli: 1,
+    blueIntelli: 4,
+    blackIntelli: 3,
+  },
+];
+
+export default testingPlayers;
